@@ -32,7 +32,6 @@ export default function Header({ budget, impostaBudget, targetMacro, impostaTarg
         <form onSubmit={gestisciSalvataggio} className="mt-3 pt-3 border-top border-secondary">
           <div className="row g-2">
             
-            {/* Campo Budget */}
             <div className="col-12 mb-2">
               <label className="form-label small text-muted">Budget Massimo (€)</label>
               <input
